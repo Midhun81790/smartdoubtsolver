@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Smart Doubt Solver - MERN Stack Application",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
-    "start": "cd backend && npm start"
+    "build": "cd frontend && npm ci && npm run build",
+    "start": "cd backend && npm start",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
   },
   "author": "Midhun",
   "license": "MIT"
